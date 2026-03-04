@@ -1,0 +1,7 @@
+data,produto,categoria,quantidade,preco_unitario
+2026-03-01,Notebook,Eletronicos,2,3500
+2026-03-01,Mouse,Eletronicos,5,120
+2026-03-02,Cadeira,Moveis,3,800
+2026-03-02,Mesa,Moveis,1,1500
+2026-03-03,Teclado,Eletronicos,4,200
+2026-03-03,Luminaria,Decoracao,6,150
