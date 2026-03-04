@@ -1,25 +1,22 @@
-# SmartReport – Python Excel Automation
+# SmartReport – Python Excel Automation Tool
 
-SmartReport is a Python-based automation tool designed to process raw CSV sales data and generate structured Excel reports automatically.
+SmartReport is a Python automation solution that processes raw sales data (CSV) and generates structured, formatted Excel reports with business insights.
 
-This project demonstrates practical business automation using Python for data processing and reporting.
+This project demonstrates practical automation skills using Python, showcasing data processing, calculations, and Excel report generation.
 
-## 🚀 What This Project Does
+---
 
-- Reads raw sales data from CSV
-- Calculates revenue automatically
+## 🚀 Key Features
+
+- Reads sales data from CSV
+- Calculates total and average revenue
 - Identifies top-selling products
 - Groups revenue by category
-- Generates multi-sheet Excel report
-- Applies automatic formatting
+- Generates a polished multi-sheet Excel report
 
-## 🛠 Tech Stack
+---
 
-- Python
-- Pandas
-- Openpyxl
-
-## 📂 Project Structure
+## 📁 Project Structure
 
 smartreport/
 │
@@ -29,20 +26,56 @@ smartreport/
 ├── requirements.txt
 └── README.md
 
+---
+
+## 🛠 Technologies Used
+
+- Python
+- pandas
+- openpyxl
+
+---
+
 ## ▶ How to Run
 
-1. Create virtual environment  
-   python -m venv venv
+1. Clone the repo  
+   `git clone https://github.com/Ohlipeh/smartreport.git`
 
-2. Activate  
-   venv\Scripts\activate
+2. Create Python virtual environment  
+   `python -m venv venv`
 
-3. Install dependencies  
-   pip install -r requirements.txt
+3. Activate environment  
+   `venv\Scripts\activate`
 
-4. Run  
-   python src/main.py
+4. Install dependencies  
+   `pip install -r requirements.txt`
+
+5. Run the automation script  
+   `python src/main.py`
+
+---
+
+## 📌 Output
+
+The project generates a formatted Excel file inside the `output` folder with:
+
+- **Dados Brutos** — raw sales data
+- **Resumo por Categoria** — category grouping
+- **Resumo Executivo** — key performance information
+
+---
 
 ## 🎯 Purpose
 
-This project was built as a portfolio demonstration of business automation using Python.
+This project is built as a portfolio demonstration of Python automation skills focusing on **data processing and Excel reporting** — a common and valuable demand in business automation.
+
+---
+
+## 🧠 Next Improvements
+
+Future versions may include:
+
+- Support for dynamic file input
+- Interactive UI (e.g., Streamlit)
+- Scheduled automation (cron/jobs)
+- Email or Slack delivery of reports
